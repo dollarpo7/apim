@@ -1,0 +1,58 @@
+{
+  "id": "/apis/blank-api",
+  "name": "Blank API",
+  "apiRevision": "1",
+  "$ref-description": "",
+  "serviceUrl": "http://eu.httpbin.org/",
+  "path": "httpbin",
+  "protocols": [
+    "http",
+    "https"
+  ],
+  "authenticationSettings": {
+    "oAuth2": null,
+    "openid": null
+  },
+  "subscriptionKeyParameterNames": {
+    "header": "Ocp-Apim-Subscription-Key",
+    "query": "subscription-key"
+  },
+  "isCurrent": true,
+  "operations": [
+    {
+      "id": "/apis/blank-api/operations/getheaders",
+      "name": "GetHeaders",
+      "method": "GET",
+      "urlTemplate": "/headers",
+      "templateParameters": [],
+      "$ref-description": "",
+      "request": {
+        "$ref-description": null,
+        "queryParameters": [],
+        "headers": [],
+        "representations": []
+      },
+      "responses": [],
+      "policies": null,
+      "$ref-policy": "api-management/policies/apis/Blank_API__1[Current]/operations/GET__headers.xml"
+    },
+    {
+      "id": "/apis/blank-api/operations/getmyip",
+      "name": "GetMyIp",
+      "method": "GET",
+      "urlTemplate": "/ip",
+      "templateParameters": [],
+      "$ref-description": "",
+      "request": {
+        "$ref-description": null,
+        "queryParameters": [],
+        "headers": [],
+        "representations": []
+      },
+      "responses": [],
+      "policies": null
+    }
+  ],
+  "apiSchemas": [],
+  "__GitModuleVersion": 14
+}

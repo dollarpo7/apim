@@ -1,0 +1,41 @@
+{
+  "definitions": {
+    "Product": {
+      "type": "object",
+      "properties": {
+        "Id": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "Name": {
+          "type": "string"
+        },
+        "Category": {
+          "type": "string"
+        },
+        "Price": {
+          "format": "double",
+          "type": "number"
+        }
+      }
+    },
+    "ProductArray": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/Product"
+      }
+    },
+    "ApiProductsPost200ApplicationJsonResponse": {
+      "type": "object"
+    },
+    "ApiProductsPost200TextJsonResponse": {
+      "type": "object"
+    },
+    "ApiProductsPost200ApplicationXmlResponse": {
+      "type": "object"
+    },
+    "ApiProductsPost200TextXmlResponse": {
+      "type": "object"
+    }
+  }
+}

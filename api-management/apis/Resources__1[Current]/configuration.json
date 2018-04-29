@@ -1,0 +1,73 @@
+{
+  "id": "/apis/resources",
+  "name": "Resources",
+  "apiRevision": "1",
+  "$ref-description": "",
+  "serviceUrl": "https://jsonplaceholder.typicode.com/",
+  "path": "resource",
+  "protocols": [
+    "http",
+    "https"
+  ],
+  "authenticationSettings": {
+    "oAuth2": null,
+    "openid": null
+  },
+  "subscriptionKeyParameterNames": {
+    "header": "Ocp-Apim-Subscription-Key",
+    "query": "subscription-key"
+  },
+  "isCurrent": true,
+  "operations": [
+    {
+      "id": "/apis/resources/operations/getphotos",
+      "name": "GetPhotos",
+      "method": "GET",
+      "urlTemplate": "/photos",
+      "templateParameters": [],
+      "$ref-description": "",
+      "request": {
+        "$ref-description": null,
+        "queryParameters": [],
+        "headers": [],
+        "representations": []
+      },
+      "responses": [],
+      "policies": null
+    },
+    {
+      "id": "/apis/resources/operations/getposts",
+      "name": "GetPosts",
+      "method": "GET",
+      "urlTemplate": "/posts",
+      "templateParameters": [],
+      "$ref-description": "",
+      "request": {
+        "$ref-description": null,
+        "queryParameters": [],
+        "headers": [],
+        "representations": []
+      },
+      "responses": [],
+      "policies": null
+    },
+    {
+      "id": "/apis/resources/operations/getusers",
+      "name": "GetUsers",
+      "method": "GET",
+      "urlTemplate": "/users",
+      "templateParameters": [],
+      "$ref-description": "",
+      "request": {
+        "$ref-description": null,
+        "queryParameters": [],
+        "headers": [],
+        "representations": []
+      },
+      "responses": [],
+      "policies": null
+    }
+  ],
+  "apiSchemas": [],
+  "__GitModuleVersion": 14
+}

@@ -1,0 +1,85 @@
+{
+  "id": "/apis/country",
+  "name": "Country",
+  "apiRevision": "1",
+  "$ref-description": "",
+  "serviceUrl": "http://services.groupkt.com",
+  "path": "",
+  "protocols": [
+    "http",
+    "https"
+  ],
+  "authenticationSettings": {
+    "oAuth2": null,
+    "openid": null
+  },
+  "subscriptionKeyParameterNames": {
+    "header": "Ocp-Apim-Subscription-Key",
+    "query": "subscription-key"
+  },
+  "isCurrent": true,
+  "operations": [
+    {
+      "id": "/apis/country/operations/getallcountries",
+      "name": "GetAllCountries",
+      "method": "GET",
+      "urlTemplate": "/country/get/all",
+      "templateParameters": [],
+      "$ref-description": "",
+      "request": {
+        "$ref-description": null,
+        "queryParameters": [],
+        "headers": [],
+        "representations": []
+      },
+      "responses": [],
+      "policies": null
+    },
+    {
+      "id": "/apis/country/operations/getstates",
+      "name": "GetStates",
+      "method": "GET",
+      "urlTemplate": "/state/get/{CountryCode}/all",
+      "templateParameters": [
+        {
+          "name": "CountryCode",
+          "description": null,
+          "type": "",
+          "defaultValue": null,
+          "required": true,
+          "values": []
+        }
+      ],
+      "$ref-description": "",
+      "request": {
+        "$ref-description": null,
+        "queryParameters": [],
+        "headers": [],
+        "representations": []
+      },
+      "responses": [],
+      "policies": null,
+      "$ref-policy": "api-management/policies/apis/Country__1[Current]/operations/GET__state_get_{CountryCode}_all.xml"
+    },
+    {
+      "id": "/apis/country/operations/searchcountrybyiso",
+      "name": "SearchCountryByISO",
+      "method": "GET",
+      "urlTemplate": "/country/search",
+      "templateParameters": [],
+      "$ref-description": "",
+      "request": {
+        "$ref-description": null,
+        "queryParameters": [],
+        "headers": [],
+        "representations": []
+      },
+      "responses": [],
+      "policies": null,
+      "$ref-policy": "api-management/policies/apis/Country__1[Current]/operations/GET__country_search.xml"
+    }
+  ],
+  "apiSchemas": [],
+  "$ref-policy": "api-management/policies/apis/Country__1[Current].xml",
+  "__GitModuleVersion": 14
+}

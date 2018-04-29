@@ -1,0 +1,305 @@
+{
+  "id": "/apis/productstore",
+  "name": "ProductStore",
+  "apiRevision": "1",
+  "$ref-description": null,
+  "serviceUrl": "http://productstoreapp.azurewebsites.net/",
+  "path": "productstore",
+  "protocols": [
+    "http"
+  ],
+  "authenticationSettings": {
+    "oAuth2": null,
+    "openid": null
+  },
+  "subscriptionKeyParameterNames": {
+    "header": "Ocp-Apim-Subscription-Key",
+    "query": "subscription-key"
+  },
+  "isCurrent": true,
+  "operations": [
+    {
+      "id": "/apis/productstore/operations/Products_DeleteProduct",
+      "name": "Products_DeleteProduct",
+      "method": "DELETE",
+      "urlTemplate": "/api/Products/{id}",
+      "templateParameters": [
+        {
+          "name": "id",
+          "description": "Format - int32.",
+          "type": "integer",
+          "defaultValue": null,
+          "required": true,
+          "values": []
+        }
+      ],
+      "$ref-description": null,
+      "request": {
+        "$ref-description": null,
+        "queryParameters": [],
+        "headers": [],
+        "representations": []
+      },
+      "responses": [
+        {
+          "statusCode": 204,
+          "$ref-description": "api-management/apis/ProductStore__1[Current]/operations/DELETE__api_Products_{id}.response.204.description.html",
+          "representations": [],
+          "headers": []
+        }
+      ],
+      "policies": null
+    },
+    {
+      "id": "/apis/productstore/operations/Products_GetAllProducts",
+      "name": "Products_GetAllProducts",
+      "method": "GET",
+      "urlTemplate": "/api/Products",
+      "templateParameters": [],
+      "$ref-description": null,
+      "request": {
+        "$ref-description": null,
+        "queryParameters": [],
+        "headers": [],
+        "representations": []
+      },
+      "responses": [
+        {
+          "statusCode": 200,
+          "$ref-description": "api-management/apis/ProductStore__1[Current]/operations/GET__api_Products.response.200.description.html",
+          "representations": [
+            {
+              "contentType": "application/json",
+              "$ref-sample": null,
+              "schemaId": "5ae57760d58fb713708152d9",
+              "typeName": "ProductArray"
+            },
+            {
+              "contentType": "text/json",
+              "$ref-sample": null,
+              "schemaId": "5ae57760d58fb713708152d9",
+              "typeName": "ProductArray"
+            },
+            {
+              "contentType": "application/xml",
+              "$ref-sample": null,
+              "schemaId": "5ae57760d58fb713708152d9",
+              "typeName": "ProductArray"
+            },
+            {
+              "contentType": "text/xml",
+              "$ref-sample": null,
+              "schemaId": "5ae57760d58fb713708152d9",
+              "typeName": "ProductArray"
+            }
+          ],
+          "headers": []
+        }
+      ],
+      "policies": null
+    },
+    {
+      "id": "/apis/productstore/operations/Products_GetProduct",
+      "name": "Products_GetProduct",
+      "method": "GET",
+      "urlTemplate": "/api/Products/{id}",
+      "templateParameters": [
+        {
+          "name": "id",
+          "description": "Format - int32.",
+          "type": "integer",
+          "defaultValue": null,
+          "required": true,
+          "values": []
+        }
+      ],
+      "$ref-description": null,
+      "request": {
+        "$ref-description": null,
+        "queryParameters": [],
+        "headers": [],
+        "representations": []
+      },
+      "responses": [
+        {
+          "statusCode": 200,
+          "$ref-description": "api-management/apis/ProductStore__1[Current]/operations/GET__api_Products_{id}.response.200.description.html",
+          "representations": [
+            {
+              "contentType": "application/json",
+              "$ref-sample": null,
+              "schemaId": "5ae57760d58fb713708152d9",
+              "typeName": "Product"
+            },
+            {
+              "contentType": "text/json",
+              "$ref-sample": null,
+              "schemaId": "5ae57760d58fb713708152d9",
+              "typeName": "Product"
+            },
+            {
+              "contentType": "application/xml",
+              "$ref-sample": null,
+              "schemaId": "5ae57760d58fb713708152d9",
+              "typeName": "Product"
+            },
+            {
+              "contentType": "text/xml",
+              "$ref-sample": null,
+              "schemaId": "5ae57760d58fb713708152d9",
+              "typeName": "Product"
+            }
+          ],
+          "headers": []
+        }
+      ],
+      "policies": null
+    },
+    {
+      "id": "/apis/productstore/operations/Products_PostProduct",
+      "name": "Products_PostProduct",
+      "method": "POST",
+      "urlTemplate": "/api/Products",
+      "templateParameters": [],
+      "$ref-description": null,
+      "request": {
+        "$ref-description": null,
+        "queryParameters": [],
+        "headers": [],
+        "representations": [
+          {
+            "contentType": "application/json",
+            "$ref-sample": null,
+            "schemaId": "5ae57760d58fb713708152d9",
+            "typeName": "Product"
+          },
+          {
+            "contentType": "text/json",
+            "$ref-sample": null,
+            "schemaId": "5ae57760d58fb713708152d9",
+            "typeName": "Product"
+          },
+          {
+            "contentType": "application/xml",
+            "$ref-sample": null,
+            "schemaId": "5ae57760d58fb713708152d9",
+            "typeName": "Product"
+          },
+          {
+            "contentType": "text/xml",
+            "$ref-sample": null,
+            "schemaId": "5ae57760d58fb713708152d9",
+            "typeName": "Product"
+          },
+          {
+            "contentType": "application/x-www-form-urlencoded",
+            "$ref-sample": null
+          }
+        ]
+      },
+      "responses": [
+        {
+          "statusCode": 200,
+          "$ref-description": "api-management/apis/ProductStore__1[Current]/operations/POST__api_Products.response.200.description.html",
+          "representations": [
+            {
+              "contentType": "application/json",
+              "$ref-sample": null,
+              "schemaId": "5ae57760d58fb713708152d9",
+              "typeName": "ApiProductsPost200ApplicationJsonResponse"
+            },
+            {
+              "contentType": "text/json",
+              "$ref-sample": null,
+              "schemaId": "5ae57760d58fb713708152d9",
+              "typeName": "ApiProductsPost200TextJsonResponse"
+            },
+            {
+              "contentType": "application/xml",
+              "$ref-sample": null,
+              "schemaId": "5ae57760d58fb713708152d9",
+              "typeName": "ApiProductsPost200ApplicationXmlResponse"
+            },
+            {
+              "contentType": "text/xml",
+              "$ref-sample": null,
+              "schemaId": "5ae57760d58fb713708152d9",
+              "typeName": "ApiProductsPost200TextXmlResponse"
+            }
+          ],
+          "headers": []
+        }
+      ],
+      "policies": null
+    },
+    {
+      "id": "/apis/productstore/operations/Products_PutProduct",
+      "name": "Products_PutProduct",
+      "method": "PUT",
+      "urlTemplate": "/api/Products/{id}",
+      "templateParameters": [
+        {
+          "name": "id",
+          "description": "Format - int32.",
+          "type": "integer",
+          "defaultValue": null,
+          "required": true,
+          "values": []
+        }
+      ],
+      "$ref-description": null,
+      "request": {
+        "$ref-description": null,
+        "queryParameters": [],
+        "headers": [],
+        "representations": [
+          {
+            "contentType": "application/json",
+            "$ref-sample": null,
+            "schemaId": "5ae57760d58fb713708152d9",
+            "typeName": "Product"
+          },
+          {
+            "contentType": "text/json",
+            "$ref-sample": null,
+            "schemaId": "5ae57760d58fb713708152d9",
+            "typeName": "Product"
+          },
+          {
+            "contentType": "application/xml",
+            "$ref-sample": null,
+            "schemaId": "5ae57760d58fb713708152d9",
+            "typeName": "Product"
+          },
+          {
+            "contentType": "text/xml",
+            "$ref-sample": null,
+            "schemaId": "5ae57760d58fb713708152d9",
+            "typeName": "Product"
+          },
+          {
+            "contentType": "application/x-www-form-urlencoded",
+            "$ref-sample": null
+          }
+        ]
+      },
+      "responses": [
+        {
+          "statusCode": 204,
+          "$ref-description": "api-management/apis/ProductStore__1[Current]/operations/PUT__api_Products_{id}.response.204.description.html",
+          "representations": [],
+          "headers": []
+        }
+      ],
+      "policies": null
+    }
+  ],
+  "apiSchemas": [
+    {
+      "id": "/apis/productstore/schemas/5ae57760d58fb713708152d9",
+      "contentType": "application/vnd.ms-azure-apim.swagger.definitions+json",
+      "$ref-documentValue": "api-management/apis/ProductStore__1[Current]/apiSchemas/5ae57760d58fb713708152d9.document"
+    }
+  ],
+  "__GitModuleVersion": 14
+}
