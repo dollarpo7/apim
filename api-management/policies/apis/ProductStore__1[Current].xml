@@ -17,7 +17,15 @@
 	<backend>
 		<base />
 	</backend>
-	<outbound />
+	<outbound>
+		<base />
+		<return-response>
+			<set-status code="429" reason="Too many requests" />
+			<set-body>{
+                Rate limit is exceeded. Try again after some time.
+                }</set-body>
+		</return-response>
+	</outbound>
 	<on-error>
 		<base />
 	</on-error>

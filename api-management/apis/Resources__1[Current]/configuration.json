@@ -20,6 +20,22 @@
   "isCurrent": true,
   "operations": [
     {
+      "id": "/apis/resources/operations/getcomments",
+      "name": "GetComments",
+      "method": "GET",
+      "urlTemplate": "/comments",
+      "templateParameters": [],
+      "$ref-description": "",
+      "request": {
+        "$ref-description": null,
+        "queryParameters": [],
+        "headers": [],
+        "representations": []
+      },
+      "responses": [],
+      "policies": null
+    },
+    {
       "id": "/apis/resources/operations/getphotos",
       "name": "GetPhotos",
       "method": "GET",

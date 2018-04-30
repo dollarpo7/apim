@@ -14,7 +14,7 @@
   ],
   "$refs-apis": [
     "api-management/apis/Blank_API__1[Current]/configuration.json",
-    "api-management/apis/calculator__1[Current]/configuration.json"
+    "api-management/apis/Calculator__1[Current]/configuration.json"
   ],
   "__GitModuleVersion": 14
 }

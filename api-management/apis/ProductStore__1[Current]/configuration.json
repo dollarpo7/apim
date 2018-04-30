@@ -48,7 +48,8 @@
           "headers": []
         }
       ],
-      "policies": null
+      "policies": null,
+      "$ref-policy": "api-management/policies/apis/ProductStore__1[Current]/operations/DELETE__api_Products_{id}.xml"
     },
     {
       "id": "/apis/productstore/operations/Products_GetAllProducts",
@@ -96,7 +97,8 @@
           "headers": []
         }
       ],
-      "policies": null
+      "policies": null,
+      "$ref-policy": "api-management/policies/apis/ProductStore__1[Current]/operations/GET__api_Products.xml"
     },
     {
       "id": "/apis/productstore/operations/Products_GetProduct",
@@ -153,7 +155,8 @@
           "headers": []
         }
       ],
-      "policies": null
+      "policies": null,
+      "$ref-policy": "api-management/policies/apis/ProductStore__1[Current]/operations/GET__api_Products_{id}.xml"
     },
     {
       "id": "/apis/productstore/operations/Products_PostProduct",
@@ -230,7 +233,8 @@
           "headers": []
         }
       ],
-      "policies": null
+      "policies": null,
+      "$ref-policy": "api-management/policies/apis/ProductStore__1[Current]/operations/POST__api_Products.xml"
     },
     {
       "id": "/apis/productstore/operations/Products_PutProduct",
@@ -301,5 +305,6 @@
       "$ref-documentValue": "api-management/apis/ProductStore__1[Current]/apiSchemas/5ae57760d58fb713708152d9.document"
     }
   ],
+  "$ref-policy": "api-management/policies/apis/ProductStore__1[Current].xml",
   "__GitModuleVersion": 14
 }

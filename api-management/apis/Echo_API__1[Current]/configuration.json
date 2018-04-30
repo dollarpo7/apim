@@ -28,7 +28,18 @@
       "request": {
         "$ref-description": null,
         "queryParameters": [],
-        "headers": [],
+        "headers": [
+          {
+            "name": "Ocp-Apim-Subscription-Key",
+            "description": null,
+            "type": "string",
+            "defaultValue": "68d312d9cf3b4b3ca07be5abacaf8fc9",
+            "required": false,
+            "values": [
+              "68d312d9cf3b4b3ca07be5abacaf8fc9"
+            ]
+          }
+        ],
         "representations": [
           {
             "contentType": "application/json",
@@ -146,7 +157,18 @@
             "values": []
           }
         ],
-        "headers": [],
+        "headers": [
+          {
+            "name": "Ocp-Apim-Subscription-Key",
+            "description": null,
+            "type": "string",
+            "defaultValue": "68d312d9cf3b4b3ca07be5abacaf8fc9",
+            "required": false,
+            "values": [
+              "68d312d9cf3b4b3ca07be5abacaf8fc9"
+            ]
+          }
+        ],
         "representations": []
       },
       "responses": [

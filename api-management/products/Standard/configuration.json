@@ -6,14 +6,15 @@
   "subscriptionRequired": true,
   "approvalRequired": false,
   "subscriptionsLimit": null,
-  "state": "notPublished",
+  "state": "published",
   "$refs-groups": [
     "api-management/groups/Administrators/configuration.json",
     "api-management/groups/Developers/configuration.json",
     "api-management/groups/Guests/configuration.json"
   ],
   "$refs-apis": [
-    "api-management/apis/Country__1[Current]/configuration.json"
+    "api-management/apis/Resources__1[Current]/configuration.json"
   ],
+  "$ref-policy": "api-management/policies/products/Standard.xml",
   "__GitModuleVersion": 14
 }

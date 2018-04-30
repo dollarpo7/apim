@@ -1,6 +1,6 @@
 {
   "id": "/apis/calculator",
-  "name": "calculator",
+  "name": "Calculator",
   "apiRevision": "1",
   "$ref-description": null,
   "serviceUrl": "http://www.dneonline.com/calculator.asmx",
@@ -25,9 +25,9 @@
       "method": "POST",
       "urlTemplate": "/?soapAction=http://tempuri.org/Add",
       "templateParameters": [],
-      "$ref-description": "api-management/apis/calculator__1[Current]/operations/POST___soapAction=http___t1LKJKR4.description.html",
+      "$ref-description": "api-management/apis/Calculator__1[Current]/operations/POST___soapAction=http___t1LKJKR4.description.html",
       "request": {
-        "$ref-description": "api-management/apis/calculator__1[Current]/operations/POST___soapAction=http___t1LKJKR4.request.html",
+        "$ref-description": "api-management/apis/Calculator__1[Current]/operations/POST___soapAction=http___t1LKJKR4.request.html",
         "queryParameters": [],
         "headers": [
           {
@@ -44,7 +44,7 @@
         "representations": [
           {
             "contentType": "application/soap+xml",
-            "$ref-sample": "api-management/apis/calculator__1[Current]/operations/POST___soapAction=http___t1LKJKR4.request.application_soap+xml.html",
+            "$ref-sample": "api-management/apis/Calculator__1[Current]/operations/POST___soapAction=http___t1LKJKR4.request.application_soap+xml.html",
             "schemaId": "f95fe83d-78fd-49aa-90ed-ec4a55f0f145",
             "typeName": "Add"
           }
@@ -53,11 +53,11 @@
       "responses": [
         {
           "statusCode": 200,
-          "$ref-description": "api-management/apis/calculator__1[Current]/operations/POST___soapAction=http___t1LKJKR4.response.200.description.html",
+          "$ref-description": "api-management/apis/Calculator__1[Current]/operations/POST___soapAction=http___t1LKJKR4.response.200.description.html",
           "representations": [
             {
               "contentType": "application/soap+xml",
-              "$ref-sample": "api-management/apis/calculator__1[Current]/operations/POST___soapAction=http___t1LKJKR4.response.200.application_soap+xml.html",
+              "$ref-sample": "api-management/apis/Calculator__1[Current]/operations/POST___soapAction=http___t1LKJKR4.response.200.application_soap+xml.html",
               "schemaId": "f95fe83d-78fd-49aa-90ed-ec4a55f0f145",
               "typeName": "AddResponse"
             }
@@ -75,7 +75,7 @@
       "templateParameters": [],
       "$ref-description": null,
       "request": {
-        "$ref-description": "api-management/apis/calculator__1[Current]/operations/POST___soapAction=http___tH7R5WN.request.html",
+        "$ref-description": "api-management/apis/Calculator__1[Current]/operations/POST___soapAction=http___tH7R5WN.request.html",
         "queryParameters": [],
         "headers": [
           {
@@ -92,7 +92,7 @@
         "representations": [
           {
             "contentType": "application/soap+xml",
-            "$ref-sample": "api-management/apis/calculator__1[Current]/operations/POST___soapAction=http___tH7R5WN.request.application_soap+xml.html",
+            "$ref-sample": "api-management/apis/Calculator__1[Current]/operations/POST___soapAction=http___tH7R5WN.request.application_soap+xml.html",
             "schemaId": "f95fe83d-78fd-49aa-90ed-ec4a55f0f145",
             "typeName": "Divide"
           }
@@ -101,11 +101,11 @@
       "responses": [
         {
           "statusCode": 200,
-          "$ref-description": "api-management/apis/calculator__1[Current]/operations/POST___soapAction=http___tH7R5WN.response.200.description.html",
+          "$ref-description": "api-management/apis/Calculator__1[Current]/operations/POST___soapAction=http___tH7R5WN.response.200.description.html",
           "representations": [
             {
               "contentType": "application/soap+xml",
-              "$ref-sample": "api-management/apis/calculator__1[Current]/operations/POST___soapAction=http___tH7R5WN.response.200.application_soap+xml.html",
+              "$ref-sample": "api-management/apis/Calculator__1[Current]/operations/POST___soapAction=http___tH7R5WN.response.200.application_soap+xml.html",
               "schemaId": "f95fe83d-78fd-49aa-90ed-ec4a55f0f145",
               "typeName": "DivideResponse"
             }
@@ -123,13 +123,13 @@
       "templateParameters": [],
       "$ref-description": null,
       "request": {
-        "$ref-description": "api-management/apis/calculator__1[Current]/operations/POST___soapAction=http___tE566M8.request.html",
+        "$ref-description": "api-management/apis/Calculator__1[Current]/operations/POST___soapAction=http___tE566M8.request.html",
         "queryParameters": [],
         "headers": [],
         "representations": [
           {
             "contentType": "application/soap+xml",
-            "$ref-sample": "api-management/apis/calculator__1[Current]/operations/POST___soapAction=http___tE566M8.request.application_soap+xml.html",
+            "$ref-sample": "api-management/apis/Calculator__1[Current]/operations/POST___soapAction=http___tE566M8.request.application_soap+xml.html",
             "schemaId": "f95fe83d-78fd-49aa-90ed-ec4a55f0f145",
             "typeName": "Multiply"
           }
@@ -138,11 +138,11 @@
       "responses": [
         {
           "statusCode": 200,
-          "$ref-description": "api-management/apis/calculator__1[Current]/operations/POST___soapAction=http___tE566M8.response.200.description.html",
+          "$ref-description": "api-management/apis/Calculator__1[Current]/operations/POST___soapAction=http___tE566M8.response.200.description.html",
           "representations": [
             {
               "contentType": "application/soap+xml",
-              "$ref-sample": "api-management/apis/calculator__1[Current]/operations/POST___soapAction=http___tE566M8.response.200.application_soap+xml.html",
+              "$ref-sample": "api-management/apis/Calculator__1[Current]/operations/POST___soapAction=http___tE566M8.response.200.application_soap+xml.html",
               "schemaId": "f95fe83d-78fd-49aa-90ed-ec4a55f0f145",
               "typeName": "MultiplyResponse"
             }
@@ -160,13 +160,24 @@
       "templateParameters": [],
       "$ref-description": null,
       "request": {
-        "$ref-description": "api-management/apis/calculator__1[Current]/operations/POST___soapAction=http___t3H6E6O.request.html",
+        "$ref-description": "api-management/apis/Calculator__1[Current]/operations/POST___soapAction=http___t3H6E6O.request.html",
         "queryParameters": [],
-        "headers": [],
+        "headers": [
+          {
+            "name": "SOAPAction",
+            "description": null,
+            "type": "string",
+            "defaultValue": "http://tempuri.org/Subtract",
+            "required": false,
+            "values": [
+              "http://tempuri.org/Subtract"
+            ]
+          }
+        ],
         "representations": [
           {
             "contentType": "application/soap+xml",
-            "$ref-sample": "api-management/apis/calculator__1[Current]/operations/POST___soapAction=http___t3H6E6O.request.application_soap+xml.html",
+            "$ref-sample": "api-management/apis/Calculator__1[Current]/operations/POST___soapAction=http___t3H6E6O.request.application_soap+xml.html",
             "schemaId": "f95fe83d-78fd-49aa-90ed-ec4a55f0f145",
             "typeName": "Subtract"
           }
@@ -175,11 +186,11 @@
       "responses": [
         {
           "statusCode": 200,
-          "$ref-description": "api-management/apis/calculator__1[Current]/operations/POST___soapAction=http___t3H6E6O.response.200.description.html",
+          "$ref-description": "api-management/apis/Calculator__1[Current]/operations/POST___soapAction=http___t3H6E6O.response.200.description.html",
           "representations": [
             {
               "contentType": "application/soap+xml",
-              "$ref-sample": "api-management/apis/calculator__1[Current]/operations/POST___soapAction=http___t3H6E6O.response.200.application_soap+xml.html",
+              "$ref-sample": "api-management/apis/Calculator__1[Current]/operations/POST___soapAction=http___t3H6E6O.response.200.application_soap+xml.html",
               "schemaId": "f95fe83d-78fd-49aa-90ed-ec4a55f0f145",
               "typeName": "SubtractResponse"
             }
@@ -194,7 +205,7 @@
     {
       "id": "/apis/calculator/schemas/f95fe83d-78fd-49aa-90ed-ec4a55f0f145",
       "contentType": "application/vnd.ms-azure-apim.xsd+xml",
-      "$ref-documentValue": "api-management/apis/calculator__1[Current]/apiSchemas/f95fe83d-78fd-49aa-90ed-ec1506BPH.document"
+      "$ref-documentValue": "api-management/apis/Calculator__1[Current]/apiSchemas/f95fe83d-78fd-49aa-90ed-ec1506BPH.document"
     }
   ],
   "__GitModuleVersion": 14
