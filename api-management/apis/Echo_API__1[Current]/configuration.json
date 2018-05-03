@@ -129,62 +129,8 @@
       "$ref-policy": "api-management/policies/apis/Echo_API__1[Current]/operations/HEAD__resource.xml"
     },
     {
-      "id": "/apis/echo-api/operations/retrieve-resource",
-      "name": "Retrieve resource",
-      "method": "GET",
-      "urlTemplate": "/resource",
-      "templateParameters": [],
-      "$ref-description": "api-management/apis/Echo_API__1[Current]/operations/GET__resource.description.html",
-      "request": {
-        "$ref-description": null,
-        "queryParameters": [
-          {
-            "name": "param1",
-            "description": "A sample parameter that is required and has a default value of \"sample\".",
-            "type": "string",
-            "defaultValue": "sample",
-            "required": true,
-            "values": [
-              "sample"
-            ]
-          },
-          {
-            "name": "param2",
-            "description": "Another sample parameter, set to not required.",
-            "type": "number",
-            "defaultValue": null,
-            "required": false,
-            "values": []
-          }
-        ],
-        "headers": [
-          {
-            "name": "Ocp-Apim-Subscription-Key",
-            "description": null,
-            "type": "string",
-            "defaultValue": "68d312d9cf3b4b3ca07be5abacaf8fc9",
-            "required": false,
-            "values": [
-              "68d312d9cf3b4b3ca07be5abacaf8fc9"
-            ]
-          }
-        ],
-        "representations": []
-      },
-      "responses": [
-        {
-          "statusCode": 200,
-          "$ref-description": "api-management/apis/Echo_API__1[Current]/operations/GET__resource.response.200.description.html",
-          "representations": [],
-          "headers": []
-        }
-      ],
-      "policies": null,
-      "$ref-policy": "api-management/policies/apis/Echo_API__1[Current]/operations/GET__resource.xml"
-    },
-    {
       "id": "/apis/echo-api/operations/retrieve-resource-cached",
-      "name": "Retrieve resource (cached)",
+      "name": "Retrieve resource",
       "method": "GET",
       "urlTemplate": "/resource-cached",
       "templateParameters": [],
